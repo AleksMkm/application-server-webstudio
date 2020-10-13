@@ -1,0 +1,22 @@
+{
+  "name": "application-server-webstudio",
+  "version": "1.0.0",
+  "description": "test app server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksMkm/application-server-webstudio.git"
+  },
+  "author": "Aleksandr Mukomelov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksMkm/application-server-webstudio/issues"
+  },
+  "homepage": "https://github.com/AleksMkm/application-server-webstudio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
