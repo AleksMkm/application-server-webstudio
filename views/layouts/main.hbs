@@ -8,9 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="stylesheets/{{cssFileName}}.css" />
   </head>
   <body>
+    {{> header}}
     {{{body}}}
+    {{> footer}}
+    <script src="javascripts/burger.js"></script>
+    <script src="javascripts/modal.js"></script>
   </body>
 </html>

@@ -2,6 +2,9 @@ const express = require('express');
 const exhbs = require('express-handlebars');
 
 const app = express();
+const PORT = process.env.PORT || 5001;
+
+app.use(express.static('public'));
 
 app.set('view engine', 'hbs');
 
@@ -14,13 +17,13 @@ app.engine(
 );
 
 app.get('/', (req, res) => {
-  res.send(`<h1>Main page</h1>`);
+  res.render('home', { cssFileName: 'main' });
 });
 
 app.get('/portfolio', (req, res) => {
-  res.send(`<h1>Portfolio</h1>`);
+  res.render('portfolio', { cssFileName: 'portfolio' });
 });
 
-app.listen(5001, () => {
-  console.log(`server running at localhost 5001`);
+app.listen(PORT, () => {
+  console.log(`Application server is running on port ${PORT}`);
 });
