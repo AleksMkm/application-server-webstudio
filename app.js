@@ -36,8 +36,8 @@ app.get('/:productId', (req, res) => {
 
   res.render('product', {
     product,
-    cssFileName: 'portfolio',
-    jsName: 'portfolio',
+    cssFileName: 'product',
+    jsName: 'product',
   });
 });
 

@@ -1,6 +1,67 @@
-<p>
-  <a href="/portfolio">Обратно к портфолио</a>
-</p>
+<div class="container">
+<div class="product-wrapper">
+  <a href="/portfolio" class="product-nav-link">Обратно к портфолио</a>
 
-<h1>Это страница одного продукта</h1>
-<h2>{{product.name}}</h2>
+<div class="product-card">
+  <picture>
+    <source
+      srcset="
+        ./images/pf-{{product.image}}-mobile-450.webp 450w,
+        ./images/pf-{{product.image}}-mobile-900.webp 900w
+      "
+      media="(max-width: 767px)"
+      type="image/webp"
+    />
+    <source
+      srcset="
+        ./images/pf-{{product.image}}-desktop-370.webp 270w,
+        ./images/pf-{{product.image}}-desktop-740.webp 540w
+      "
+      media="(min-width: 1200px)"
+      type="image/webp"
+    />
+    <source
+      srcset="
+        ./images/pf-{{product.image}}-tablet-354.webp 354w,
+        ./images/pf-{{product.image}}-tablet-708.webp 708w
+      "
+      media="(min-width: 768px)"
+      type="image/webp"
+    />
+    <source
+      srcset="
+        ./images/pf-{{product.image}}-mobile-450.jpg 450w,
+        ./images/pf-{{product.image}}-mobile-900.jpg 900w
+      "
+      media="(max-width: 767px)"
+    />
+    <source
+      srcset="
+        ./images/pf-{{product.image}}-desktop-370.jpg 270w,
+        ./images/pf-{{product.image}}-desktop-740.jpg 540w
+      "
+      media="(min-width: 1200px)"
+    />
+    <source
+      srcset="
+        ./images/pf-{{product.image}}-tablet-354.jpg 354w,
+        ./images/pf-{{product.image}}-tablet-708.jpg 708w
+      "
+      media="(min-width: 768px)"
+    />
+    <img
+      class="product-image"
+      src=".images/pf-{{product.image}}-desktop-370.jpg"
+      alt="{{product.name}}"
+      sizes="(min-width: 1200px) 33vw, (min-width: 768px) 50vw,  100vw"
+    />
+  </picture>
+  <div class="product-desc">
+    <h2 class="product-desc-title">{{product.name}}</h2>
+    <p class="product-desc-text">{{product.category}}</p>
+    <p class="product-description">{{product.description}}</p>
+  </div>
+</div>
+
+</div>
+</div>
