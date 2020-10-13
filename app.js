@@ -11,5 +11,5 @@ app.get('/portfolio', (req, res) => {
 });
 
 app.listen(5001, () => {
-  console.log(`server running at 5001`);
+  console.log(`server running at localhost 5001`);
 });
