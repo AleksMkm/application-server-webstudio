@@ -1,20 +1,20 @@
-(() => {
-  const refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]'),
-  };
+const refs = {
+  openModalBtn: document.querySelector('[data-modal-open]'),
+  closeModalBtn: document.querySelector('[data-modal-close]'),
+  modal: document.querySelector('[data-modal]'),
+};
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+function toggleModal() {
+  document.body.classList.toggle('modal-open');
+  refs.modal.classList.toggle('backdrop---is-hidden');
+}
 
-  function toggleModal() {
-    document.body.classList.toggle('modal-open');
-    refs.modal.classList.toggle('backdrop---is-hidden');
-  }
-})();
+refs.openModalBtn.addEventListener('click', toggleModal);
+refs.closeModalBtn.addEventListener('click', toggleModal);
 
-(() => {
+// toggleModal();
+
+function resetFormFields() {
   document.querySelector('.subscription-form').addEventListener('submit', e => {
     e.preventDefault();
 
@@ -24,9 +24,11 @@
 
     e.currentTarget.reset();
   });
-})();
+}
 
-(() => {
+resetFormFields();
+
+function resetSubscriptionFormFields() {
   document.querySelector('.callback-form').addEventListener('submit', e => {
     e.preventDefault();
 
@@ -36,9 +38,11 @@
 
     e.currentTarget.reset();
   });
-})();
+}
 
-(() => {
+resetSubscriptionFormFields();
+
+function openBurgerMenu() {
   const menuBtnRef = document.querySelector('[data-menu-button]');
   const mobileMenuRef = document.querySelector('[data-menu]');
 
@@ -51,9 +55,11 @@
 
     mobileMenuRef.classList.toggle('is-open');
   });
-})();
+}
 
-(() => {
+openBurgerMenu();
+
+function setActivePageStyles() {
   const mainPageLink = document.querySelector('[data-page-main]');
   const portfolioPageLink = document.querySelector('[data-page-portfolio]');
 
@@ -70,4 +76,6 @@
       .closest('.nav-menu__item')
       .classList.add('nav-menu__item--current-page');
   }
-})();
+}
+
+setActivePageStyles();
