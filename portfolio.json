@@ -4,6 +4,7 @@
     "image": "techokryak",
     "name": "Технокряк",
     "category": "Веб-сайт",
+    "type": "web",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -12,6 +13,7 @@
     "image": "new-orlean",
     "name": "Постер New Orlean vs Golden Star",
     "category": "Дизайн",
+    "type": "design",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -20,6 +22,7 @@
     "image": "seafood",
     "name": "Ресторан Seafood",
     "category": "Приложение",
+    "type": "app",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -28,6 +31,7 @@
     "image": "prime",
     "name": "Проект Prime",
     "category": "Маркетинг",
+    "type": "marketing",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -36,6 +40,7 @@
     "image": "boxes",
     "name": "Проект Boxes",
     "category": "Приложение",
+    "type": "app",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -44,6 +49,7 @@
     "image": "inspiration",
     "name": "Inspiration has no Borders",
     "category": "Веб-сайт",
+    "type": "web",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -52,6 +58,7 @@
     "image": "limited",
     "name": "Издание Limited Edition",
     "category": "Дизайн",
+    "type": "design",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -60,6 +67,7 @@
     "image": "lab",
     "name": "Проект LAB",
     "category": "Маркетинг",
+    "type": "marketing",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   },
 
@@ -68,6 +76,7 @@
     "image": "growing",
     "name": "Growing Business",
     "category": "Приложение",
+    "type": "app",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed congue odio, eu ornare augue. Nunc sed aliquam sem, eu condimentum massa. Quisque eget lorem nec sem consectetur dictum ut in est. In maximus tempus ex, id tempor magna vulputate eu. Donec nisi sem, aliquet id tortor a, fringilla cursus enim. Ut dignissim nibh vitae velit facilisis, elementum mattis ex laoreet. Praesent vehicula laoreet mauris sit amet porttitor. Nulla ultrices, tortor sit amet varius ultrices, lectus odio mollis nulla, a feugiat nibh tellus ut urna. Vivamus id pellentesque enim."
   }
 ]
